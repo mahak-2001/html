@@ -1,0 +1,10 @@
+div{
+    height:200px;
+    width:200px;
+    background-image:url("dragon.jpg");
+    background-size:cover;
+    position:fixed;
+    right:0;
+    bottom:0;
+    color:white;
+}

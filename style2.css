@@ -1,14 +1,31 @@
-#box{
+div{
     height:100px;
     width:100px;
-    background-color:blue;
-    font-size:20px;
- }
+    background-color:aqua;
+    display:inline-block;
+    border:2px solid black;
+}
+
 #box1{
-    height:50px;
-    width:50%;
-    background-color:red;
-    margin-left:10%;
-    font-size:2em;
-    width:5rem;
+    height:300px;
+    width:300px;
+    position:static;
+    background-image: url("dragon.jpg");
+    background-size:cover;
+}
+#box2{
+    position:relative;
+    top:20px;
+    left:20px;
+    }
+
+#box3{
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+#box4{
+    position:fixed;
+    top:20px;
+    left:20px;
 }
